@@ -1,0 +1,1 @@
+print("Este es el jugador 1, 你好!")
