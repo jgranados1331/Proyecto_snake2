@@ -8,6 +8,7 @@ class Configuraciones(object):
         self.name_game = "Snake Game 2"
         self.icon=pygame.image.load("Images/Incono.png")
         self.background_game = pygame.image.load("Images/background.png")
+        self.first = pygame.image.load("Images/snake.png")
     
 
         self.velocity_factor_player1=1
