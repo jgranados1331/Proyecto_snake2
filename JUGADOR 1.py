@@ -4,7 +4,7 @@ from pygame.sprite import Sprite
 #### COLOCAR EN CONFIGURACIONES EL SELF PARA EL FACTOR VELOCIDAD DE LA SERPIENTE
 ### self.factor_velocidad_serpiente = 1.5
 ###
-
+x = 0
 
 
 class serpiente_1(Sprite):
