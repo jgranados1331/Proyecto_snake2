@@ -28,5 +28,6 @@ class Configuraciones(object):
 
         #Players
         self.velocity_factor_player1=1
+        
         self.velocity_factor_player2=1
         
