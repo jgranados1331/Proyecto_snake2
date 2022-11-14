@@ -15,7 +15,11 @@ class Configuraciones(object):
         self.apple = pygame.image.load("Images/apple.png")
         self.chocolate = pygame.image.load("Images/chocolateg.png")
         self.mouse = pygame.image.load("Images/mouse.png")
+        self.pared_ancha = pygame.image.load("Images/pared_ancha.png")
+        self.pared_alta = pygame.image.load("Images/pared_larga.png")
         self.select_food=random.randint(0,2)
+        self.food_positionx = random.randint(70,1110)
+        self.food_positiony = random.randint(50,730)
 
         #Players
         self.velocity_factor_player1=1
