@@ -27,16 +27,15 @@ class pared():
         self.pantalla_rectizq = pantalla.get_rect()
         self.rectizq.centerx = self.pantalla_rect.centerx
         self.rectizq.centery = self.pantalla_rect.centery
-        self.rectizq.left = self.pantalla_rect.left
-        self.rectizq.top = self.pantalla_rect.top
+        self.rectizq.topleft = self.pantalla_rect.topleft
         #pared lateral der
         self.pared_alta_der = ai_configuraciones.pared_alta
         self.rectder = self.pared_alta_der.get_rect()
         self.pantalla_rectder = pantalla.get_rect()
         self.rectder.centerx = self.pantalla_rect.centerx
         self.rectder.centery = self.pantalla_rect.centery
-        self.rectder.right = self.pantalla_rect.right
-        self.rectder.top = self.pantalla_rect.top
+        self.rectder.topright = self.pantalla_rect.topright
+
 
 
     def blitme(self):
