@@ -8,7 +8,7 @@ class Comida():
         self.ia_configuraciones = ai_configuraciones
         
 
-        comida=[ai_configuraciones.apple,ai_configuraciones.chocolate,ai_configuraciones.mouse,ai_configuraciones.burger,ai_configuraciones.mango,ai_configuraciones.pizza,ai_configuraciones.coca]
+        comida=[ai_configuraciones.apple,ai_configuraciones.chocolate,ai_configuraciones.mouse,ai_configuraciones.burger,ai_configuraciones.mango,ai_configuraciones.pizza,ai_configuraciones.coca,ai_configuraciones.reloj,ai_configuraciones.poop]
         #comida 1
         self.comida=comida[ai_configuraciones.select_food]
         self.rect = self.comida.get_rect()
