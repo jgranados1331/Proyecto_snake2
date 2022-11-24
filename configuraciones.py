@@ -25,7 +25,7 @@ class Configuraciones(object):
         self.pared_ancha = pygame.image.load("Images/pared_ancha.png")
         self.pared_alta = pygame.image.load("Images/pared_larga.png")
 
-        #Snake y dirección de la serpiente
+        #Snake 
         self.cabeza = pygame.image.load("Images/cabeza.png")
         self.direction = 'RIGHT'
         self.cambiar_a = self.direction
