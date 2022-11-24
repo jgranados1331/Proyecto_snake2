@@ -14,7 +14,10 @@ class Comida():
         self.pantalla_rect = pantalla.get_rect()
         self.rect.centerx = ai_configuraciones.food_positionx
         self.rect.centery = ai_configuraciones.food_positiony
+        
 
     def blitme(self):
         self.pantalla.blit(self.comida, self.rect)
+
+
 

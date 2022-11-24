@@ -1,11 +1,14 @@
 import pygame
 import game_functions as gf
+import JUGADOR_1 as J1
 from configuraciones import Configuraciones
 from comida import Comida
 from paredes import pared
+from JUGADOR_1 import serpiente_1
 def run_game():
     pygame.init()
     ai_configuraciones = Configuraciones()
+    movimiento = serpiente_1
     pantalla = pygame.display.set_mode((ai_configuraciones.screen_width, ai_configuraciones.screen_height))
     pygame.display.set_caption((ai_configuraciones.name_game))
     pygame.display.set_icon((ai_configuraciones.icon))
@@ -20,5 +23,7 @@ def run_game():
     while True:
         gf.screen_update(ai_configuraciones,pantalla,comida,pared_ancha_1, pared_ancha_2,pared_alta_izq,pared_alta_der)
         gf.events_verify(ai_configuraciones,pantalla)
+        
+        
 
 run_game()
