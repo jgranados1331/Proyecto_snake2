@@ -1,6 +1,8 @@
 import sys
+
 import time
 import pygame
+
 from configuraciones import Configuraciones
 # COLOCAR PUNTAJE MAYOR DE QUÉ JUGADOR HACER MÁS PUNTAJE
 
