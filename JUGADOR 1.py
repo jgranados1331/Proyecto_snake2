@@ -52,8 +52,5 @@ class serpiente_1(Sprite):
         self.rect.centerx = self.center
 
     
-    def blitme(self):
-        """Dibujar la serpiente en la ubicacion actual"""
-        self.pantalla.blit(self.imagem self.rect)
     
     
